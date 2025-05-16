@@ -1,0 +1,17 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    background-color: rgb(154, 154, 154);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    font-weight: 1.5em;
+
+}
+menu{
+    display: none;
+    text-align: center;
+    width: 600vw;
+    height: 100vw;
+}
