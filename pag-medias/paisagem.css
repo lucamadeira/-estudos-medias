@@ -1,0 +1,5 @@
+/*  configuracao de telas deitadas */
+body{
+   background-image: url(../imag/cev-landscape.jpg);
+ background-position:  bottom left;
+}
