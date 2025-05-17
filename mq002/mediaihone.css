@@ -1,74 +1,52 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
+     margin: 0px;
+    padding: 0px;
 }
 
 html{
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
 }
 body{
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    background-color: #f4f4f4;
-}
-.container{
-    width: 100%;
-    height: 100%;
+    background-image: url(../mq002/image/back-phone.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
-    justify-content: center;
-    align-items: center;
+ 
+
+  
 }
-.main{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+img#phone{
+    margin: auto;
+  
+ 
 }
-.main .content{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.main .content .box{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.main .content .box .text{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.main .content .box .text h1{
+h1{
+    text-align: center;
+    color: white;
     font-size: 2em;
-    color: #333;
 }
-.main .content .box .text p{
-    font-size: 1em;
-    color: #666;
+
+main{
+    background-color: rgba(217, 206, 206, 0.269);
+    width: 600px;
+   margin: auto;
+    border-radius: 10px;
+    padding: 10px;
 }
-.main .content .box .text a{
-    font-size: 1em;
-    color: #007BFF;
-    text-decoration: none;
+img{
+    display: block;
 }
-.main .content .box .text a:hover{
-    text-decoration: underline;
+#tablet{
+   display: none;
 }
-.main .content .box .text a:active{
-    text-decoration: none;
-}
-.main .content .box .text a:focus{
-    outline: none;
-}
-.main .content .box .text a:focus-visible{
-    outline: none;
+ #pc{
+    display: none;
+ }
+
+#tv {
+    display: none;
 }
